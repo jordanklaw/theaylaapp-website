@@ -770,19 +770,44 @@ footer{flex-direction:column;gap:20px;text-align:center;padding:36px 24px}
   });
 })();
 
-function go(){
+function wlFlash(i){
+  i.style.borderColor='rgba(252,249,237,0.2)';
+  i.style.backgroundColor='rgba(252,249,237,0.06)';
+  setTimeout(function(){
+    i.style.borderColor='rgba(252,249,237,0.08)';
+    i.style.backgroundColor='rgba(252,249,237,0.04)';
+  },1200);
+}
+async function go(){
   var i=document.getElementById('wlE');
-  if(/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(i.value.trim())){
-    document.getElementById('wlF').classList.add('gone');
-    document.getElementById('wlOk').classList.add('show');
-    document.getElementById('wlFn').style.display='none';
-  }else{
-    i.style.borderColor='rgba(252,249,237,0.2)';
-    i.style.backgroundColor='rgba(252,249,237,0.06)';
-    setTimeout(function(){
-      i.style.borderColor='rgba(252,249,237,0.08)';
-      i.style.backgroundColor='rgba(252,249,237,0.04)';
-    },1200);
+  var email=i.value.trim();
+  if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){
+    wlFlash(i);
+    return;
+  }
+  try{
+    const resp=await fetch(
+      "https://pxhxchzouzusvuythinx.supabase.co/rest/v1/waitlist",
+      {
+        method:"POST",
+        headers:{
+          "Content-Type":"application/json",
+          "apikey":"sb_publishable_brdDwLquzgBLQepcOhk7Ww_O8tm1Mqv",
+          "Authorization":"Bearer sb_publishable_brdDwLquzgBLQepcOhk7Ww_O8tm1Mqv",
+          "Prefer":"return=minimal"
+        },
+        body:JSON.stringify({email:email,source:"website"})
+      }
+    );
+    if(resp.status===201||resp.status===409){
+      document.getElementById('wlF').classList.add('gone');
+      document.getElementById('wlOk').classList.add('show');
+      document.getElementById('wlFn').style.display='none';
+    }else{
+      wlFlash(i);
+    }
+  }catch(e){
+    wlFlash(i);
   }
 }
 document.getElementById('wlE').addEventListener('keydown',function(e){if(e.key==='Enter')go()});
