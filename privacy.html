@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Ayla</title>
+    <link rel="canonical" href="https://theaylaapp.com/privacy">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #F5F0EA;
+            color: #1A1815;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            font-size: 15px;
+            line-height: 1.7;
+            padding: 48px 24px;
+            max-width: 640px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-family: Georgia, "Times New Roman", serif;
+            font-weight: 400;
+            font-size: 28px;
+            color: #4A4540;
+            margin-bottom: 8px;
+            letter-spacing: -0.3px;
+        }
+
+        .last-updated {
+            font-size: 10.5px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            color: #8A8279;
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-family: Georgia, "Times New Roman", serif;
+            font-weight: 400;
+            font-size: 20px;
+            color: #1A1815;
+            margin-top: 36px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            color: #1A1815;
+            margin-bottom: 16px;
+        }
+
+        ul {
+            margin-bottom: 16px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            color: #1A1815;
+        }
+
+        .divider {
+            border: none;
+            border-top: 1px solid #DDD7CE;
+            margin: 36px 0;
+        }
+
+        .contact {
+            color: #8A8279;
+            font-size: 13.5px;
+        }
+
+        a {
+            color: #4A4540;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+    <p class="last-updated">Last updated: September 2026</p>
+
+    <p>Ayla collects what it needs to give you your readings, and nothing it doesn't. Your data is for your experience. It is never sold, and never shared with third parties for advertising.</p>
+
+    <h2>What we collect</h2>
+    <ul>
+        <li><strong>Account information.</strong> Your email address and sign-in identity (email/password, or Sign in with Apple / Google).</li>
+        <li><strong>Birth details.</strong> Your date of birth, birth time if you know it, and birth place, used to compute your chart. If you use pairing features, the birth details you enter for another person are stored the same way and are visible only to you.</li>
+        <li><strong>What you write.</strong> Reflections, intentions, and the reasons you attach to your own actions. These are encrypted at rest with per-record keys and are decrypted only to compose your own readings. Your words come back only to you, and only where you asked to be held to them. They never appear in analytics.</li>
+        <li><strong>Usage signals.</strong> Structured, non-text signals (outcome cards you tap, timing, and return visits) used to make your next reading better. This lane never reads what you wrote.</li>
+        <li><strong>Profile photos.</strong> Stored in a private bucket and served only through short-lived signed links.</li>
+    </ul>
+
+    <h2>Services we use</h2>
+    <ul>
+        <li><strong>Supabase</strong> hosts our database, authentication, and storage.</li>
+        <li><strong>Astrology computation</strong> uses a third-party chart service, called from our servers; the birth details needed to compute a chart are sent for that purpose.</li>
+        <li><strong>Anthropic Claude</strong> generates narrative text server-side under zero-data-retention terms.</li>
+        <li><strong>RevenueCat and Apple</strong> handle subscriptions; we never see your payment details.</li>
+    </ul>
+
+    <h2>Notifications</h2>
+    <p>Reminders and callbacks you ask for are scheduled on your device. A notification may reference an action you asked to be held to; it never contains anything else you wrote.</p>
+
+    <h2>Your control</h2>
+    <p>What you plant stays yours. You can see everything the app remembers about you, export it, and delete it. Deleting your account removes your data, including what you wrote, from our systems.</p>
+
+    <hr class="divider">
+
+    <p class="contact">Questions about this policy: <a href="mailto:theaylaapp@icloud.com">theaylaapp@icloud.com</a>.</p>
+</body>
+</html>

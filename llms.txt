@@ -1,0 +1,24 @@
+# Ayla
+
+> Ayla is an astrology app for iPhone that holds you to what you said you
+> wanted. Each day it reads your sky and ends with one small planned action.
+> You plant it, it goes into your Garden, and weeks later Ayla asks what came
+> of it. The math is computed from real astronomy; Ayla narrates, it never
+> decides for you. Made in Los Angeles.
+
+Key facts: iOS only. Pre-launch; the waitlist is open. No streaks. Three
+modes: The Sun (you), The World (a friend), The Lovers (a partner); the other
+person never needs the app. Ayla never promises that the sky delivers an
+outcome. Contact: theaylaapp@icloud.com.
+
+## Pages
+
+- [Home and waitlist](https://theaylaapp.com/): what Ayla is, how it works
+- [FAQ](https://theaylaapp.com/faq): how Ayla compares to CHANI, Co-Star, and The Pattern; couples and friendship modes; accountability; launch and pricing
+- [What Ayla is built on](https://theaylaapp.com/built-on): deterministic chart math, narrated; the daily reading; the Garden
+- [Privacy](https://theaylaapp.com/privacy)
+- [Terms](https://theaylaapp.com/terms)
+
+## Optional
+
+- [llms-full.txt](https://theaylaapp.com/llms-full.txt): the full site text in one file
