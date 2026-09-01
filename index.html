@@ -4,7 +4,52 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="light only">
-<title>Ayla | The Date Experience</title>
+<title>Ayla | Astrology that holds you to it.</title>
+<meta name="description" content="Ayla is an astrology app for iPhone that holds you to what you said you wanted. Plant one small thing. Weeks later, Ayla asks what came of it.">
+<link rel="canonical" href="https://theaylaapp.com/">
+<meta property="og:title" content="Ayla | Astrology that holds you to it.">
+<meta property="og:description" content="Ayla is an astrology app for iPhone that holds you to what you said you wanted. Plant one small thing. Weeks later, Ayla asks what came of it.">
+<meta property="og:url" content="https://theaylaapp.com/">
+<meta property="og:type" content="website">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://theaylaapp.com/#org",
+  "name": "Ayla",
+  "url": "https://theaylaapp.com/",
+  "email": "theaylaapp@icloud.com",
+  "description": "Ayla is an astrology app for iPhone that holds you to what you said you wanted. Each day it reads your sky and ends with one small planned action. You plant it, it goes into your Garden, and weeks later Ayla asks what came of it. The math is computed from real astronomy; Ayla narrates, it never decides for you. Made in Los Angeles."
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://theaylaapp.com/#website",
+  "url": "https://theaylaapp.com/",
+  "name": "Ayla",
+  "publisher": { "@id": "https://theaylaapp.com/#org" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "Ayla",
+  "operatingSystem": "iOS",
+  "applicationCategory": "LifestyleApplication",
+  "url": "https://theaylaapp.com/",
+  "author": { "@id": "https://theaylaapp.com/#org" },
+  "description": "Ayla is an astrology app for iPhone that holds you to what you said you wanted. Each day it reads your sky and ends with one small planned action. You plant it, it goes into your Garden, and weeks later Ayla asks what came of it. The math is computed from real astronomy; Ayla narrates, it never decides for you. Made in Los Angeles.",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "description": "Free to download at launch, with an optional subscription. Not yet on the App Store; the waitlist is open."
+  }
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
@@ -217,32 +262,7 @@ background-color:var(--cream);
 .sep-l{flex:1;height:1px;background:linear-gradient(to right,transparent,#E8E0D0,transparent)}
 .sep-d{width:6px;height:6px;border:1px solid #D4CCBC;transform:rotate(45deg);flex-shrink:0}
 
-/* ─── PHILOSOPHY ─── */
-.phil{
-padding:200px 56px 180px;max-width:1320px;margin:0 auto;
-background-color:var(--cream) !important;
-}
-.phil-g{display:grid;grid-template-columns:1fr 1fr;gap:100px;align-items:start}
-
-.phil-q{
-background-color:var(--burg) !important;padding:64px 52px;position:relative;
-margin-top:40px;
-}
-.phil-q::after{
-content:'';position:absolute;bottom:0;left:0;right:0;height:3px;
-background-color:#FCF9ED;
-}
-.phil-q blockquote{
-font-family:'Noto Serif',serif;font-size:23px;font-weight:300;
-font-style:italic;line-height:1.6;color:#FCF9ED;
-}
-.phil-q cite{
-font-family:'DM Sans',sans-serif;font-size:9px;font-style:normal;
-letter-spacing:0.28em;text-transform:uppercase;
-color:rgba(252,249,237,0.35);display:block;margin-top:28px;
-}
-
-/* ─── MODES ─── */
+/* ─── HOW IT WORKS ─── */
 .modes{
 padding:200px 56px;max-width:1320px;margin:0 auto;
 background-color:var(--cream) !important;
@@ -293,104 +313,6 @@ line-height:1.25;color:#1C1A17;margin-bottom:20px;transition:color 0.7s ease;
 .md-b{
 font-family:'Cormorant Garamond',serif;font-size:16px;font-weight:400;
 line-height:1.85;color:#8A847A;transition:color 0.7s ease;
-}
-
-/* ─── MARQUEE ─── */
-.tape{
-padding:64px 0;overflow:hidden;
-background-color:var(--burg-dark) !important;
-}
-.tape-tr{display:flex;animation:slide 40s linear infinite;white-space:nowrap}
-.tape-w{
-font-family:'Noto Serif',serif;
-font-size:clamp(40px,5vw,68px);font-weight:300;
-color:rgba(252,249,237,0.05);padding:0 52px;flex-shrink:0;
-text-transform:uppercase;letter-spacing:0.03em;
-}
-.tape-w.it{font-style:italic;text-transform:none;color:rgba(252,249,237,0.07)}
-@keyframes slide{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
-
-/* ─── FEATURES ─── */
-.feats{
-padding:200px 56px;max-width:1320px;margin:0 auto;
-background-color:var(--cream) !important;
-}
-.ft{
-display:grid;grid-template-columns:1fr 1fr;gap:100px;
-align-items:center;margin-bottom:160px;
-}
-.ft:last-child{margin-bottom:0}
-.ft.flip{direction:rtl}
-.ft.flip>*{direction:ltr}
-
-.ft-art{
-position:relative;height:560px;
-background-color:var(--burg) !important;overflow:hidden;
-}
-
-/* Ring art */
-.rs{position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
-.rg{position:absolute;border-radius:50%;border:1px solid rgba(252,249,237,0.06)}
-.rg-1{width:420px;height:420px;animation:orb 28s linear infinite}
-.rg-2{width:310px;height:310px;animation:orb 20s linear infinite reverse}
-.rg-3{width:200px;height:200px;animation:orb 32s linear infinite}
-.rg-4{width:110px;height:110px;border-color:rgba(252,249,237,0.08);animation:orb 16s linear infinite reverse}
-.rg::after{
-content:'';position:absolute;width:4px;height:4px;
-background-color:rgba(252,249,237,0.1);border-radius:50%;
-top:0;left:50%;transform:translateX(-50%);
-}
-.rg-2::after{top:auto;bottom:0}
-.rg-3::after{top:50%;left:0;transform:translateY(-50%)}
-
-/* Crosshair */
-.xh{position:absolute;inset:0;pointer-events:none}
-.xh::before,.xh::after{content:'';position:absolute;background-color:rgba(252,249,237,0.02)}
-.xh::before{top:50%;left:12%;right:12%;height:1px}
-.xh::after{left:50%;top:12%;bottom:12%;width:1px}
-
-/* Diagonal accent lines */
-.diag{position:absolute;inset:0;pointer-events:none;overflow:hidden}
-.diag::before{
-content:'';position:absolute;
-top:-10%;left:60%;width:1px;height:120%;
-background-color:rgba(252,249,237,0.02);
-transform:rotate(25deg);
-}
-.diag::after{
-content:'';position:absolute;
-top:-10%;left:35%;width:1px;height:120%;
-background-color:rgba(252,249,237,0.015);
-transform:rotate(25deg);
-}
-
-@keyframes orb{to{transform:rotate(360deg)}}
-
-.ft-lbl{
-position:absolute;z-index:2;top:50%;left:50%;
-transform:translate(-50%,-50%);text-align:center;
-}
-.ft-lbl-tag{
-font-family:'DM Sans',sans-serif;font-size:8px;
-letter-spacing:0.45em;text-transform:uppercase;
-color:rgba(252,249,237,0.28);margin-bottom:20px;
-}
-.ft-lbl-hd{
-font-family:'Noto Serif',serif;
-font-size:clamp(32px,3.8vw,48px);font-weight:300;
-font-style:italic;color:#FCF9ED;line-height:1.2;
-}
-
-.dl{list-style:none;padding:0;margin-top:40px}
-.dl li{
-font-family:'Cormorant Garamond',serif;
-font-size:16px;font-weight:400;color:#8A847A;
-padding:14px 0;border-bottom:1px solid #E8E0D0;
-display:flex;align-items:center;gap:16px;
-}
-.dl li::before{
-content:'';width:4px;height:4px;
-background-color:#8A847A;border-radius:50%;flex-shrink:0;
 }
 
 /* ─── WAITLIST ─── */
@@ -477,30 +399,26 @@ background-color:var(--cream) !important;
 font-family:'Noto Serif',serif;font-size:18px;font-weight:500;
 letter-spacing:0.18em;text-transform:uppercase;color:#1C1A17;
 }
-.ftr-lk{display:flex;gap:32px}
+.ftr-lk{display:flex;gap:32px;flex-wrap:wrap;justify-content:center}
 .ftr-lk a{
 font-family:'DM Sans',sans-serif;font-size:10px;
 letter-spacing:0.16em;text-transform:uppercase;
 color:#8A847A;text-decoration:none;transition:color 0.3s ease;
 }
 .ftr-lk a:hover{color:#1C1A17}
-.ftr-cp{font-family:'DM Sans',sans-serif;font-size:10px;color:#8A847A;letter-spacing:0.04em}
+.ftr-cp{font-family:'DM Sans',sans-serif;font-size:10px;color:#8A847A;letter-spacing:0.04em;text-align:right}
 
 /* ─── RESPONSIVE ─── */
 @media(max-width:1024px){
-.phil-g{grid-template-columns:1fr;gap:60px}
 .modes-row{grid-template-columns:1fr;border:none}
 .md{border-right:none;border-bottom:1px solid var(--cream-mid)}
 .md:last-child{border-bottom:none}
-.ft,.ft.flip{grid-template-columns:1fr;direction:ltr}
-.ft.flip>*{direction:ltr}
-.ft-art{height:400px}
 }
 @media(max-width:768px){
 nav{padding:20px 24px}
 nav.scrolled{padding:14px 24px}
 .nav-w{font-size:18px}
-.phil,.modes,.feats,.closing{padding:120px 24px}
+.modes,.closing{padding:120px 24px}
 .wl{padding:120px 24px}
 .wl-f{flex-direction:column}
 .wl-em{border-right:1px solid rgba(252,249,237,0.08);border-bottom:none}
@@ -508,11 +426,8 @@ nav.scrolled{padding:14px 24px}
 .hero-btns .b-solid,.hero-btns .b-line{width:100%;text-align:center}
 footer{flex-direction:column;gap:20px;text-align:center;padding:36px 24px}
 .ftr-lk{gap:20px}
-.ft{margin-bottom:100px;gap:60px}
+.ftr-cp{text-align:center}
 .modes-top{margin-bottom:60px}
-.phil-g{gap:48px}
-.phil-q{padding:44px 32px}
-.phil-q blockquote{font-size:20px}
 }
 </style>
 
@@ -530,14 +445,14 @@ footer{flex-direction:column;gap:20px;text-align:center;padding:36px 24px}
   <div class="hero-bg" data-px="0.25"></div>
   <div class="hero-vig"></div>
   <div class="hero-c">
-    <div class="hero-label">Do You Remember</div>
-    <h1>The moments that felt like they found you.</h1>
+    <div class="hero-label">Coming to iPhone</div>
+    <h1>Astrology that holds you to it.</h1>
     <p class="hero-sub">
-      Everything fell into place at exactly the right time and you could never explain why. That dinner, the conversation, the walk after. Something invisible held it all together. That was alignment. Ayla reads your rhythm, aligns it by the stars, and surfaces more of what was already meant for you. Solo or together.
+      You plant one small thing. Weeks later, Ayla asks what came of it.
     </p>
     <div class="hero-btns">
-      <a href="#waitlist" class="b-solid">Request Early Access</a>
-      <a href="#philosophy" class="b-line">Discover Ayla</a>
+      <a href="#waitlist" class="b-solid">Join the Waitlist</a>
+      <a href="#how" class="b-line">How It Works</a>
     </div>
   </div>
   <div class="hero-si">
@@ -546,27 +461,31 @@ footer{flex-direction:column;gap:20px;text-align:center;padding:36px 24px}
   </div>
 </section>
 
-<!-- PHILOSOPHY -->
+<!-- HOW IT WORKS -->
 
-<section class="phil" id="philosophy">
-  <div class="phil-g">
-    <div class="rv-l">
-      <div class="ey ey--ink">The Philosophy</div>
-      <h2 class="hd hd--ink">The best dates don't feel <em>planned.</em></h2>
-      <p class="bt bt--ink">
-        You already know who you're seeing tonight. What you don't have is an evening that rises to the occasion. Ayla reads the moment, considers what both of you love, and builds a night that feels like it happened naturally.
-      </p>
-      <p class="bt bt--ink">
-        Not a reservation tool. Not a restaurant list. A complete experience, thoughtfully sequenced, that surprises you with something you would have never found on your own, yet fits perfectly.
-      </p>
+<section class="modes" id="how">
+  <div class="modes-top rv">
+    <div class="ey ey--ink">How It Works</div>
+    <h2 class="hd hd--ink">How Ayla <em>works.</em></h2>
+  </div>
+  <div class="modes-row">
+    <div class="md rv d1">
+      <div class="md-n">01</div>
+      <div class="md-l">The Reading</div>
+      <h3 class="md-t">One small action.</h3>
+      <p class="md-b">Each day, Ayla reads your sky and ends with one small planned action.</p>
     </div>
-    <div class="rv-r">
-      <div class="phil-q" data-px="-0.06">
-        <blockquote>
-          "The architecture should be invisible. Sophistication concealed behind simplicity."
-        </blockquote>
-        <cite>Ayla Design Philosophy</cite>
-      </div>
+    <div class="md rv d2">
+      <div class="md-n">02</div>
+      <div class="md-l">The Garden</div>
+      <h3 class="md-t">A ledger, not a streak.</h3>
+      <p class="md-b">You plant it. It goes into your Garden, a ledger of what you said you would do.</p>
+    </div>
+    <div class="md rv d3">
+      <div class="md-n">03</div>
+      <div class="md-l">The Question</div>
+      <h3 class="md-t">What came of it?</h3>
+      <p class="md-b">Weeks later, Ayla asks what came of it. No streaks. Just the question.</p>
     </div>
   </div>
 </section>
@@ -575,113 +494,8 @@ footer{flex-direction:column;gap:20px;text-align:center;padding:36px 24px}
 
 <!-- MODES -->
 
-<section class="modes" id="modes">
-  <div class="modes-top rv">
-    <div class="ey ey--ink">Three Modes, One Standard</div>
-    <h2 class="hd hd--ink">Wherever you are. <em>Elevated.</em></h2>
-  </div>
-  <div class="modes-row">
-    <div class="md rv d1">
-      <div class="md-n">01</div>
-      <div class="md-l">Solo</div>
-      <h3 class="md-t">Your city, rediscovered.</h3>
-      <p class="md-b">Curated solo experiences matched to your energy. The restaurant you've walked past a hundred times. The cocktail bar that opens at golden hour. Your city, through a lens you haven't tried yet.</p>
-    </div>
-    <div class="md rv d2">
-      <div class="md-n">02</div>
-      <div class="md-l">Crush</div>
-      <h3 class="md-t">First impressions, considered.</h3>
-      <p class="md-b">A complete evening calibrated to who you both are. Not a reservation link. A multi-stop night, thoughtfully sequenced, that creates something effortless out of something intentional.</p>
-    </div>
-    <div class="md rv d3">
-      <div class="md-n">03</div>
-      <div class="md-l">Relationship</div>
-      <h3 class="md-t">Keep showing up.</h3>
-      <p class="md-b">The most neglected moment in any relationship is the one after you've stopped trying. Ayla surfaces unexpected date nights and seasonal rituals that remind you why this person.</p>
-    </div>
-  </div>
-</section>
-
-<!-- MARQUEE -->
-
-<section class="tape">
-  <div class="tape-tr">
-    <span class="tape-w">Resonance</span><span class="tape-w it">Timing</span>
-    <span class="tape-w">Intention</span><span class="tape-w it">Presence</span>
-    <span class="tape-w">Curation</span><span class="tape-w it">Rhythm</span>
-    <span class="tape-w">Resonance</span><span class="tape-w it">Timing</span>
-    <span class="tape-w">Intention</span><span class="tape-w it">Presence</span>
-    <span class="tape-w">Curation</span><span class="tape-w it">Rhythm</span>
-  </div>
-</section>
-
-<!-- FEATURES -->
-
-<section class="feats" id="experience">
-
-  <div class="ft">
-    <div class="ft-art rv-l" data-px="-0.04">
-      <div class="rs">
-        <div class="rg rg-1"></div>
-        <div class="rg rg-2"></div>
-        <div class="rg rg-3"></div>
-        <div class="rg rg-4"></div>
-      </div>
-      <div class="xh"></div>
-      <div class="diag"></div>
-      <div class="ft-lbl">
-        <div class="ft-lbl-tag">Experience Engine</div>
-        <div class="ft-lbl-hd">Resonance<br>Timing</div>
-      </div>
-    </div>
-    <div class="rv-r">
-      <div class="ey ey--ink">The Experience</div>
-      <h2 class="hd hd--ink">Invisible<br>Architecture.</h2>
-      <p class="bt bt--ink">
-        Every detail, from the opening suggestion to the last moment, is considered, sequenced, and timed. But the person experiencing it should never feel the machinery. They should only feel the evening.
-      </p>
-      <ul class="dl">
-        <li>Venue pairing based on mood, weather, and energy</li>
-        <li>Time-of-day aware recommendations</li>
-        <li>Multi-stop evening sequencing</li>
-        <li>Surprising finds outside your usual rotation</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="ft flip">
-    <div class="ft-art rv-r" data-px="-0.04" style="background-color:#6C3630 !important">
-      <div class="rs">
-        <div class="rg rg-1" style="border-color:rgba(252,249,237,0.04)"></div>
-        <div class="rg rg-2" style="border-color:rgba(252,249,237,0.06)"></div>
-        <div class="rg rg-3" style="border-color:rgba(252,249,237,0.04)"></div>
-        <div class="rg rg-4" style="border-color:rgba(252,249,237,0.07)"></div>
-      </div>
-      <div class="xh"></div>
-      <div class="diag"></div>
-      <div class="ft-lbl">
-        <div class="ft-lbl-tag">Launching In</div>
-        <div class="ft-lbl-hd">Los<br>Angeles</div>
-      </div>
-    </div>
-    <div class="rv-l">
-      <div class="ey ey--ink">By Invitation</div>
-      <h2 class="hd hd--ink">Los Angeles, <em>first.</em></h2>
-      <p class="bt bt--ink">
-        Ayla opens its doors in a single city. Los Angeles was the only choice. No city rewards presence the way this one does. The mezcal bar in Silver Lake at 9pm. The hidden garden in the hills at sunset. The rooftop downtown when the marine layer burns off.
-      </p>
-      <p class="bt bt--ink">
-        Early access is limited, and the initial release is small by design. If you're here, you're early. That matters to us.
-      </p>
-      <ul class="dl">
-        <li>Hyper-local neighborhood intelligence</li>
-        <li>Real venue knowledge, not aggregator data</li>
-        <li>LA-native editorial perspective</li>
-        <li>Select markets to follow</li>
-      </ul>
-    </div>
-  </div>
-
+<section class="closing rv" id="modes">
+  <p class="closing-ln">Three modes: The Sun for you, The World for a friend, The Lovers for a partner. The other person never needs the app.</p>
 </section>
 
 <!-- WAITLIST -->
@@ -692,7 +506,7 @@ footer{flex-direction:column;gap:20px;text-align:center;padding:36px 24px}
     <div class="ey ey--cream">Early Access</div>
     <h2 class="hd hd--cream">Be among<br>the first.</h2>
     <p class="bt bt--cream">
-      Ayla is in private development with a limited Los Angeles release ahead. Join the waitlist for early access and founding member consideration.
+      Ayla is in private development. Join the waitlist for early access and founding member consideration.
     </p>
     <div class="wl-f" id="wlF">
       <input type="email" class="wl-em" placeholder="Your email address" id="wlE" required>
@@ -709,22 +523,16 @@ footer{flex-direction:column;gap:20px;text-align:center;padding:36px 24px}
   </div>
 </section>
 
-<!-- CLOSING -->
-
-<section class="closing rv">
-  <p class="closing-ln">"The best evening you've ever had didn't start with a swipe. It started with someone who cared enough to plan it."</p>
-</section>
-
-<div class="sep" style="margin-bottom:0"><div class="sep-l"></div><div class="sep-d"></div><div class="sep-l"></div></div>
-
 <footer>
   <div class="ftr-m">Ayla</div>
   <div class="ftr-lk">
-    <a href="#philosophy">Philosophy</a>
-    <a href="#modes">Modes</a>
-    <a href="#waitlist">Waitlist</a>
+    <a href="/faq">FAQ</a>
+    <a href="/built-on">What Ayla Is Built On</a>
+    <a href="/privacy">Privacy</a>
+    <a href="/terms">Terms</a>
+    <a href="mailto:theaylaapp@icloud.com">Contact</a>
   </div>
-  <div class="ftr-cp">&copy; 2026 Ayla. All rights reserved.</div>
+  <div class="ftr-cp">Ayla is made in Los Angeles. Coming to iPhone.<br>&copy; 2026 Ayla. All rights reserved.</div>
 </footer>
 
 <script>

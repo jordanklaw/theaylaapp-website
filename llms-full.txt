@@ -1,0 +1,94 @@
+# Ayla
+
+> Ayla is an astrology app for iPhone that holds you to what you said you wanted. Each day it reads your sky and ends with one small planned action. You plant it, it goes into your Garden, and weeks later Ayla asks what came of it. The math is computed from real astronomy; Ayla narrates, it never decides for you. Made in Los Angeles.
+
+Key facts: iOS only. Pre-launch; the waitlist is open. No streaks. Three
+modes: The Sun (you), The World (a friend), The Lovers (a partner); the
+other person never needs the app. Ayla never promises that the sky
+delivers an outcome. Contact: theaylaapp@icloud.com.
+
+## Home (https://theaylaapp.com/)
+
+Astrology that holds you to it.
+You plant one small thing. Weeks later, Ayla asks what came of it.
+
+How Ayla works:
+1. Each day, Ayla reads your sky and ends with one small planned action.
+2. You plant it. It goes into your Garden, a ledger of what you said you would do.
+3. Weeks later, Ayla asks what came of it. No streaks. Just the question.
+
+Three modes: The Sun for you, The World for a friend, The Lovers for a
+partner. The other person never needs the app.
+
+Ayla is in private development. The waitlist is open on the home page.
+Ayla is made in Los Angeles. Coming to iPhone.
+
+## FAQ (https://theaylaapp.com/faq)
+
+### What is Ayla?
+
+Ayla is an astrology app for iPhone that holds you to what you said you wanted. Each day it reads your sky and ends with one small planned action. You plant it, it goes into your Garden, and weeks later Ayla asks what came of it. The math is computed from real astronomy; Ayla narrates, it never decides for you. Made in Los Angeles. Ayla is in development. The waitlist is open on the home page, and waitlist members hear first.
+
+### How is Ayla different from CHANI, Co-Star, and The Pattern?
+
+CHANI, Co-Star, and The Pattern are reading apps: they tell you what the sky is doing and leave the rest to you. Ayla treats the reading as the start. It ends each day with one small planned action, keeps it in your Garden, and weeks later asks what came of it. If you want insight alone, those apps do it well. If you want to be held to what you said, that is Ayla.
+
+### Which astrology app holds you accountable?
+
+Accountability is Ayla's whole design. Each daily reading ends with one small action, called a seed. Seeds live in the Garden, a ledger of what you said you would do. Weeks later, Ayla asks what came of it. You confirm the outcome yourself; the app never claims credit and never guilt-trips.
+
+### Is there an astrology app for couples?
+
+Yes. Ayla's The Lovers mode runs a romantic bond: add one person with their birth details and Ayla reads your two charts together, daily. The other person never needs to install anything.
+
+### Is there an astrology app for friendship?
+
+Yes. The World is Ayla's platonic mode. Add a friend and Ayla reads the two of you as friends, with framing that stays platonic by design. Like The Lovers, your friend never needs the app.
+
+### Is there a daily horoscope app that remembers what you said?
+
+Ayla is built around memory. What you plant is kept, and the follow-up arrives weeks later whether you opened the app every day or not. There are no streaks; Ayla cares what came of the thing you planted, not how many days in a row you showed up.
+
+### Is Ayla's astrology real?
+
+Ayla narrates; it never computes. Every chart position is calculated deterministically from real astronomical data, and the writing layer can only describe those numbers, never change them. The same sky produces the same chart every time. The full story is on the What Ayla is built on page.
+
+### Is Ayla a manifestation app?
+
+No. Ayla never promises that the universe will deliver an outcome, and it does not collect wishes. It keeps a record of what you said you would do. Each daily reading ends with one small planned action, and weeks later Ayla asks what came of it; you confirm the result yourself. If what you want is follow-through on your own intentions, with an honest follow-up, that is what Ayla is built for.
+
+### When does Ayla launch, and what will it cost?
+
+Ayla is coming to iPhone and is not yet on the App Store. The waitlist is open at theaylaapp.com. It will be free to download with an optional subscription; pricing is published at launch.
+
+### What data does Ayla collect?
+
+What it needs for your readings, and nothing it doesn't. Your words are encrypted and come back only to you. Nothing is sold or shared for advertising. The full policy is at theaylaapp.com/privacy.
+
+## What Ayla is built on (https://theaylaapp.com/built-on)
+
+### Narrates, never computes
+
+Every chart position in Ayla is computed deterministically from real astronomical data, on our servers. A language model writes the prose of your reading, and it can only describe those positions, never change them. The same sky produces the same chart every time.
+
+### The daily reading
+
+Five beats, every day. The Sky: what is actually overhead, in plain words. The Mirror: what that looks like bent toward your goal. The Frame: a shape you will recognize from something you already have open. The Move: one small action you choose. The Loop: the action becomes a seed in your Garden.
+
+### The Garden
+
+The Garden is a ledger of seeds: the small things you said you would do, and what came of them. Weeks after you plant one, Ayla asks about it. There are no streaks; a quiet week reads as fallow, not failure.
+
+### Three modes
+
+The Sun reads you. The World reads you and a friend. The Lovers reads you and a partner. For The World and The Lovers you add the other person's birth details; they never need to install anything.
+
+### What we use
+
+Supabase hosts our database, authentication, and storage. Chart math uses a third-party chart service, called from our servers. Anthropic Claude generates narrative text server-side under zero-data-retention terms. RevenueCat and Apple handle subscriptions; we never see your payment details.
+
+### What Ayla will not do
+
+Ayla never promises that the sky will deliver an outcome. Readings give context. What you do with a window is yours.
+
+The stars do not decide. They open a window. You act in it.
